@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-gray-950 text-gray-100 antialiased;
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+  margin: 0;
+}
+
+@theme inline {
+  --color-hp: #22c55e;
+  --color-hp-light: #4ade80;
+  --color-xp: #3b82f6;
+  --color-xp-light: #60a5fa;
+  --color-total: #a855f7;
+  --color-total-light: #c084fc;
+
+  --color-elite: #22c55e;
+  --color-strong: #86efac;
+  --color-average: #eab308;
+  --color-off: #f97316;
+  --color-recovery: #ef4444;
+}
